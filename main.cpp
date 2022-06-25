@@ -122,7 +122,6 @@ class Board {
       } else {
         cout<< RED <<"\nCan't Open (Cell already Open) "<<endl;
       }
-     
     }
 
     void insertFlag(int i, int j) {
@@ -136,11 +135,7 @@ class Board {
         cout<< RED <<"\nCan't insert (Cell already Open) "<<endl;
       }
     }
-
-    void removeFlag(int i, int j) {
-      
-    }
-
+  
     bool checkIfWon() {
       if(flagCount >= maxFlag) {
         for(int i = 0; i < row; i++) {
@@ -216,15 +211,6 @@ class Board {
       }
       cout<<endl;
         
-    }
-
-    void print1() {
-      for(int i = 0; i < row; i++) {
-          for(int j = 0; j < coloum; j++) {
-            cout<< board[i][j] << " ";
-          }
-        cout<<endl;
-        }
     }
 };
 
