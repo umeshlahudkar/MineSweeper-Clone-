@@ -1,5 +1,6 @@
 ## MineSweeper-Clone
      Minesweeper is a single-player puzzle game. The objective of the game is to predetermine Mines placed in a cell.
+     It is a Console based game developed in c++, to play Copy the code and run in any compiler.
 
 # Rule :
      1. The board is devided into cell, With Mines (10) randomly distributed.
